@@ -29,12 +29,28 @@
             color: #666;
             font-size: 18px;
         }
+        button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Bem-vindo!</h1>
         <p>Sua página está funcionando perfeitamente.</p>
+        <p>✨ Atualizado em 2026</p>
+        <button onclick="alert('Olá!')">Clique aqui</button>
     </div>
 </body>
 </html>
